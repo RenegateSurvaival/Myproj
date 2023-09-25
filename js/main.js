@@ -8,7 +8,7 @@ window.addEventListener("load", function() {
 });
 
 
-particlesJS.load('particles-js', '../assets/Particles/config.json', function() {
+particlesJS.load('particles-js', './config.json', function() {
   console.log('callback - particles.js config loaded');
 });
 
